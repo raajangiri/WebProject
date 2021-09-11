@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>project1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+  
+  
+<servlet>
+  <servlet-name>Test</servlet-name>
+    <servlet-class>unit1.First</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/start</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Test1</servlet-name>
+    <servlet-class>unit1.Second</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test1</servlet-name>
+    <url-pattern>/end</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>Test3</servlet-name>
+    <servlet-class>unit1.Third</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test3</servlet-name>
+    <url-pattern>/third</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>Test4</servlet-name>
+    <servlet-class>unit1.Fourth</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test4</servlet-name>
+    <url-pattern>/fourth</url-pattern>
+  </servlet-mapping>
+  
+ 
+    <servlet>
+  <servlet-name>Test5</servlet-name>
+    <servlet-class>unit1.Fifth</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test5</servlet-name>
+    <url-pattern>/fifth</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>Test6</servlet-name>
+    <servlet-class>unit1.Sixth</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test6</servlet-name>
+    <url-pattern>/sixth</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  <servlet-name>Test7</servlet-name>
+    <servlet-class>unit1.Seventh</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test7</servlet-name>
+    <url-pattern>/seventh</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  <servlet-name>Test8</servlet-name>
+    <servlet-class>unit1.Eighth</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test8</servlet-name>
+    <url-pattern>/eighth</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

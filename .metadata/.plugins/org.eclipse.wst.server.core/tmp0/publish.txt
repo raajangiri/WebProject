@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Jun 08 13:18:43 NPT 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\IAmNotIntrovert\\eclipse-workspace\\home.com\\WebContent\\WEB-INF\\lib\\spring-web-5.0.5.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.0.5.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\IAmNotIntrovert\\eclipse-workspace\\home.com\\WebContent\\WEB-INF\\lib\\spring-web-5.0.5.RELEASE.jar=WEB-INF/lib/spring-web-5.0.5.RELEASE.jar

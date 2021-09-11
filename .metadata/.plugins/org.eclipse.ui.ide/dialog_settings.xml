@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\IAmNotIntrovert\eclipse-workspace\SpringProject3"/>
+		<item value="C:\Users\IAmNotIntrovert\eclipse-workspace\springioc"/>
+		<item value="C:\Users\IAmNotIntrovert\eclipse-workspace\Spring"/>
+		<item value="C:\Users\IAmNotIntrovert\eclipse\FirstWeb"/>
+		<item value="C:\Users\IAmNotIntrovert\eclipse\Project"/>
+		<item value="C:\Users\IAmNotIntrovert\Documents\New folder (2)\Spring MVC\MVC-01"/>
+		<item value="C:\Users\IAmNotIntrovert\Documents\New folder (2)\SpringHibernateCRUD"/>
+		<item value="C:\Users\IAmNotIntrovert\Documents\New folder (2)\Spring"/>
+		<item value="C:\Users\IAmNotIntrovert\Desktop\New folder (3)\webtest3.0"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\IAmNotIntrovert\Downloads\Spring\myfirst-mvc-project"/>
+			<item value="C:\Users\IAmNotIntrovert\Downloads\DIbycons"/>
+			<item value="C:\Users\IAmNotIntrovert\eclipse"/>
+			<item value="C:\Users\IAmNotIntrovert\eclipse\Project"/>
+			<item value="C:\Users\IAmNotIntrovert\Desktop\New folder (3)\mvnORMdemo"/>
+			<item value="C:\Users\IAmNotIntrovert\Desktop\New folder (3)\webtest3.0"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

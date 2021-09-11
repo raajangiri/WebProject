@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>myfirst-mvc-project</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<absolute-ordering />
+	<servlet>
+		<servlet-name>dat-frontcontroller</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+
+		<!-- we can write init param ans use the following code to use xml file 
+			rather then the same as the dat-frontcontroller i.e dat-frontcontroller-servlet.xml 
+			<init-param>
+			 <param-name>contextConfigLocation</param-name> 
+			 <param-value>/WEB-INF/dat-frontcontroller.xml</param-value> 
+			</init-param> -->
+
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dat-frontcontroller</servlet-name>
+		<url-pattern>/home.com/*</url-pattern>
+	</servlet-mapping>
+</web-app>
